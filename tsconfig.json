@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "lib": [
+            "es5",
+            "dom"
+        ],
+        "noUnusedLocals": true,
+        "module": "commonjs"
+    },
+    "include": ["node_modules/ccapture.js/*"],
+    "files": [
+	    "main.ts"
+    ],
+    "types": ["ccapturer.js"]
+}
